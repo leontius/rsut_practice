@@ -5,4 +5,19 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[workspace]
+resolver = "2"
+
+members = [
+    "basic_type",
+    "ownership",
+    "reference",
+    "string",
+    "compound_types",
+    "flow_control",
+    "patter_match",
+    "associated_functions",
+    "generics"
+]
+
 [dependencies]
